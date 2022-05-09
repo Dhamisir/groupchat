@@ -4,9 +4,10 @@ const path=require("path");
 
 var server = require('http').Server(app); // for socket
 
+const port = process.env.PORT || 3000;
 // server create using server insted of app because of socket
-server.listen(3000,()=>{
-    console.log("listening on 3000= http://localhost:3000/")
+server.listen(port,()=>{
+    console.log("listening on "+port)
 })
       
 app.get('/',(req,res)=>{
