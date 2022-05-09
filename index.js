@@ -3,7 +3,7 @@ const app=express();
 const path=require("path");
 
 var server = require('http').Server(app); // for socket
-
+// for live server
 const port = process.env.PORT || 3000;
 // server create using server insted of app because of socket
 server.listen(port,()=>{
