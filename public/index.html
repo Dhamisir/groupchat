@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart Group</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <h2 class="chat-title"> Dhami sir Chart Group </h2>
+        <div class="chat"> 
+            <div class="message">
+               
+            </div>
+        </div>
+        <div class="send">
+            <textarea class="text" id="textarea"  rows="1" placeholder="enter you message"></textarea>
+            <br>
+            <button class="btn" onclick="send(textarea.value)">Send Message</button>
+         </div>
+    </section>
+    
+    <script src="socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>

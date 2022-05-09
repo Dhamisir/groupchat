@@ -1,0 +1,92 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section
+{
+    border: 2px solid;
+    width: 50%;
+    background-color: rgb(231, 202, 15);
+    margin: auto;
+    margin-top: 20px;
+}
+.chat
+{
+    background-color: rgb(255, 255, 255);
+}
+.chat-title
+{
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 10px;   
+}
+.message
+{
+    overflow-y: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.in
+{
+    padding: 10px;
+    text-align: justify;
+    border: 2px solid;
+    width: 60%; 
+    margin-top: 10px;
+    background-color: rgb(0, 255, 21);
+    margin-left: auto;
+    font-size: 1.2rem;
+
+}
+.out
+{
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    border: 2px solid;
+    font-size: 1.2rem;
+    width: 60%; 
+    background-color: rgb(255, 30, 41);
+}
+.send
+{
+    margin-top:10px;
+    text-align: center;
+    padding: 10px;
+}
+.text
+{
+    font-size: 1.5rem;
+    padding: 5px; 
+    width: 100%;
+}
+.btn
+{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+.btn:hover
+{
+    background-color: rgba(246, 240, 240, 0.969);
+    transition: 0.5s;
+    color: rgb(21, 21, 21);
+    border: 1px solid;
+}
+
+@media only screen and (max-width: 600px) {
+    section {
+        width: 100%;
+    }
+  }
+  
